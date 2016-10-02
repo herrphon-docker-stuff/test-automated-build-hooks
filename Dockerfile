@@ -2,6 +2,7 @@ FROM ubuntu
 
 ARG BUILD_DATE
 ARG VCS_REF
+ARG GIT_SHA1
 
 LABEL org.label-schema.build-date=$BUILD_DATE \
       org.label-schema.vcs-ref=$VCS_REF  \
